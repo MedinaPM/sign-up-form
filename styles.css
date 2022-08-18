@@ -9,11 +9,7 @@
 
 body {
   font-family: sans-serif;
-  /* margin: 0px; */ /*uncomment line*/
-
-  /*margin and color to compare with odin project sample*/
-  background-color: rgb(14, 14, 14); /*remove line*/
-  margin: 0px 97px; /*remove line*/
+  margin: 0px;
 }
 
 h2 {
@@ -133,6 +129,13 @@ input:focus {
   box-shadow: 3px 3px 5px 0px #b9b9b9;
 }
 
-input:invalid {
+input:invalid, .invalid {
   outline: 1.2px solid rgb(211, 49, 49);
+}
+
+#match {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgb(211, 49, 49);
+  margin-top: 0px;
 }

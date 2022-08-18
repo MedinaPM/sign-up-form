@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <script src="./script.js"></script>
   <div class="page-container">
     <div class="left-sec">
       <div class="logo-container">
@@ -51,11 +52,12 @@
           <div class="formGroup">
             <div class="formPair">
               <label for="password">PASSWORD</label>
-              <input type="password" id="password" name="password">
+              <input type="password" id="password" name="password" onkeyup='check();'>
+              <p id="match"></p>
             </div>
             <div class="formPair">
               <label for="passConfirm">CONFIRM PASSWORD</label>
-              <input type="password" id="passConfirm" name="passwordConf">
+              <input type="password" id="passConfirm" name="passwordConf" onkeyup='check();'>
             </div>
           </div>  
         </form>
