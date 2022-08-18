@@ -119,3 +119,20 @@ label {
   letter-spacing: 0.2em;
   margin-bottom: 2px;
 }
+
+input {
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 3px;
+  padding: 5px 8px;
+  font-size: 0.9rem;
+  width: 230px;
+}
+
+input:focus {
+  outline: 1.2px solid rgb(42, 87, 216);
+  box-shadow: 3px 3px 5px 0px #b9b9b9;
+}
+
+input:invalid {
+  outline: 1.2px solid rgb(211, 49, 49);
+}
